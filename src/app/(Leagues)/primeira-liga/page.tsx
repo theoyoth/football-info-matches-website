@@ -1,7 +1,7 @@
 import { filterLeague } from '@/api'
 import LeagueTable from '@/components/LeagueTable'
 
-const SerieA = async () => {
+const PrimeiraLiga = async () => {
   const getPrimeiraLiga = await filterLeague('Primeira Liga')
   return (
     <div className='w-[600px]'>
@@ -14,4 +14,4 @@ const SerieA = async () => {
   )
 }
 
-export default SerieA
+export default PrimeiraLiga

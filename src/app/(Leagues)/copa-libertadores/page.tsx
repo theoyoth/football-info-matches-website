@@ -2,7 +2,7 @@ import { filterLeague } from "@/api"
 import LeagueTable from "@/components/LeagueTable"
 
 
-const Bundesliga = async () => {
+const CopaLibertadores = async () => {
   const getCopaLibertadores = await filterLeague('Copa Libertadores')
   return (
     <div className='w-[600px]'>
@@ -15,4 +15,4 @@ const Bundesliga = async () => {
   )
 }
 
-export default Bundesliga
+export default CopaLibertadores
