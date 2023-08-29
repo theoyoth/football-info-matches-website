@@ -8,7 +8,9 @@ const Leagues = [
   { id:3,name:"Serie A",href:"serie-a",emblem:"/img/leagues/serie_a.webp"},
   { id:4,name:"Ligue 1",href:"ligue-1",emblem:"/img/leagues/ligue_1.webp"},
   { id:5,name:"Championship",href:"championship",emblem:"/img/leagues/championship.webp"},
-  { id:6,name:"Brazilian Championship Series A",href:"brazilian-series-a",emblem:"/img/leagues/brazilian_serie_a.webp"},
+  { id:6,name:"Primeira Liga",href:"primeira-liga",emblem:"/img/leagues/liga_portugal.webp"},
+  { id:7,name:"Brazilian Championship Series A",href:"brazilian-series-a",emblem:"/img/leagues/brazilian_serie_a.webp"},
+  { id:8,name:"Copa Libertadores",href:"copa-libertadores",emblem:"/img/leagues/copa_libertadores.webp"},
 ]
 
 const Sidebar:FC = async() => {

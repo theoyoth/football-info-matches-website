@@ -2,10 +2,10 @@ import { filterLeague } from '@/api'
 import LeagueTable from '@/components/LeagueTable'
 
 const SerieA = async () => {
-  const getSerieA = await filterLeague('Serie A')
+  const getPrimeiraLiga = await filterLeague('Primeira Liga')
   return (
     <div className='w-[600px]'>
-      {getSerieA.map((data) => (
+      {getPrimeiraLiga.map((data) => (
         <div key={data.id}>
           <LeagueTable data={data} />
         </div>
